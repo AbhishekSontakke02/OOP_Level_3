@@ -8,23 +8,18 @@ abstract class Oprations{
 }
 
 class SimplerCalculator extends Oprations{
-
-	@Override
 	int add(int num1, int num2) {
 		return num1+num2;
 	}
 
-	@Override
 	int sub(int num1, int num2) {
 		return num1-num2;
 	}
 
-	@Override
 	int mul(int num1, int num2) {
 		return num1*num2;
 	}
 
-	@Override
 	double div(int num1, int num2) {
 		return (double) num1/num2;
 	}
